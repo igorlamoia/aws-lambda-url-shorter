@@ -1,0 +1,16 @@
+{
+  "name": "url-redirect",
+  "version": "1.0.0",
+  "description": "A aws lambda to get the original url from a short url and redirect to it",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor Lamoia",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "aws-sdk": "^2.1160.0",
+    "dotenv": "^16.4.5"
+  }
+}
