@@ -1,0 +1,17 @@
+{
+  "name": "url-shorter",
+  "version": "1.0.0",
+  "description": "A aws lambda to shorter an url and store the original url in the s3",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Igor Lamoia",
+  "license": "MIT",
+  "type": "module",
+  "dependencies": {
+    "aws-sdk": "^2.1160.0",
+    "dotenv": "^16.4.5",
+    "uuid": "^8.3.2"
+  }
+}
