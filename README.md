@@ -55,10 +55,16 @@ BUCKET_NAME=my-s3-bucket-name
 
 ### Shorten a URL
 
-`gateway-url/create`
+`POST gateway-url/create`
+
+```json
+{
+  "url": "https://www.example.com"
+}
+```
 
 ### Redirect to Original URL
 
-`gateway-url/{shortened-code}`
+`GET gateway-url/{shortened-code}`
 
 Replace `{shortened-code}` with the code returned from the URL shortener Lambda function.
