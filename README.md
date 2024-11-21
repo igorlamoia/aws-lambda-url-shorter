@@ -1,4 +1,4 @@
-# URL Shortener Service (AWS Lambda + API Gateway)
+# URL Shortener Service (AWS Lambda + S3 + API Gateway)
 
 This project provides a URL shortener service using AWS Lambda functions and API Gateway. It consists of two Lambda functions: one for shortening URLs and another for redirecting users from shortened URLs to the original URLs. The service uses an S3 bucket to store the mapping between shortened URLs and original URLs (I know that this is not the best way to store this information, but it is a simple way to demonstrate how to use S3 with Lambda functions).
 
