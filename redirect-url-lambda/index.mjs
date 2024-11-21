@@ -5,7 +5,7 @@ import { config } from "dotenv";
 config(); // Load the environment variables
 
 export const handler = async (event, context) => {
-  const { rawPath } = event; // Assuming the event contains the 'url' field
+  const { rawPath } = event;
   const pathSegments = rawPath.split("/");
   const code = pathSegments[pathSegments.length - 1];
 
